@@ -1,0 +1,125 @@
+
+@import url("http://fonts.cdnfonts.com/css/sansation");
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    background-image: url(./assests/bg.svg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.title_container {
+    position: absolute;
+    width: 360px;
+    height: 580px;
+    right: 80px;
+    top: 30px;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.title {
+    font-family: "Sansation", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 145px;
+    align-items: center;
+    color: #5754dd;
+    margin-top: 0;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+
+  #email {
+    margin-bottom: 15px;
+    padding: 12px 35px;
+    border-radius: 15px;
+    border:2px solid #5754dd;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    overflow: auto;
+
+  }
+
+  #password {
+    margin-bottom: 5px;
+    padding: 12px 35px;
+    border-radius: 15px;
+    border:2px solid #5754dd;
+    text-align: center;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    overflow: hidden;
+   }
+
+   #password , #email:focus {
+    outline-color: #5f5eb9;
+   }
+      
+   .form-email, .form-password{
+    position: relative;
+   }
+
+   .form-password{
+    margin-bottom: 40px;
+   }
+
+   .form-checkBox{
+    margin-bottom: 10px;
+    color: #71a1bd;
+   }
+
+   .forget-link{
+    color: #71a1bd;
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+   }
+
+   .purple{
+    color:#5754dd
+   }
+    ::placeholder{
+        color:  #6594db;
+        font-size: 16px;
+    }
+
+   .move-icons{
+    position: absolute;
+    top: 12px;
+    left: 70px;
+   }
+
+   .btn {
+    font-family: "Sansation", sans-serif;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 200px;
+    background-color: #8a89a8;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+   }
+
+   .btn:hover{
+    background-color: #5f5eb9;
+   }
